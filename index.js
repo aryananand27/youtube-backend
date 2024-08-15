@@ -4,7 +4,7 @@ const jwt=require('jsonwebtoken');
 const bcrypt=require('bcrypt');
 const cors=require('cors')
 require('./DB/config');
-const UserModel=require('./DB/users');
+const UserModel=require('./DB/Users');
 const favouritesModel=require('./DB/Myfavourites');
 const watchlatersModel=require('./DB/Mywatchlater');
 const {ObjectId}=require('mongodb')
